@@ -1,4 +1,3 @@
----
 name: Hello World
 
  on:
@@ -9,7 +8,7 @@ name: Hello World
     demo:
       run-ons: ubuntu-latest
 
-      tesps:
+      teps:
          - name: Gretings
            run: echo "Hello, world!"
       
