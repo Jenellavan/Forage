@@ -2,13 +2,13 @@ name: Hello World
 
  on:
    push:
-      branches: [main]
+      branches: [ main ]
 
   jobs:
     demo:
-      run-ons: ubuntu-latest
+      runs-on: ubuntu-latest
 
-      teps:
-         - name: Gretings
+      steps:
+         - name: Greetings
            run: echo "Hello, world!"
       
